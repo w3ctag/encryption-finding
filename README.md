@@ -1,1 +1,1 @@
-# encryption-finding
+# TAG Statement of Support for Strong Encryption 
