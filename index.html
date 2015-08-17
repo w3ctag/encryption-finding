@@ -29,47 +29,7 @@
           wgURI:        "https://www.w3.org/2001/tag/",
           wgPublicList: "www-tag",
           wgPatentURI:  "https://www.w3.org/2001/tag/disclosures",
-          edDraftURI: "https://w3ctag.github.io/encryption-finding/",
-          localBiblio:  {
-              "SECURING-WEB": {
-                authors: [ "Mark Nottingham" ],
-                href: "http://www.w3.org/2001/tag/doc/web-https",
-                title: "Securing the Web",
-                status: "Finding",
-                publisher: "W3C"
-              },
-              "KEYS": {
-                authors: [ "Harold Abelson", "Ross Anderson", "Steven M. Bellovin", "Josh Benaloh", "Matthew Blaze", "Whitfield Diffie", "John Gilmore", "Matthew Green", "Peter G. Neumann", "Susan Landau", "Ronald L. Rivest", "Jeffrey I. Schiller", "Bruce Schneier", "Michael Specter", "Daniel J. Weitzner" ],
-                href: "https://www.cl.cam.ac.uk/~rja14/Papers/doormats.pdf",
-                title: "Keys Under Doormats: mandating insecurity by requiring government access to all data and communications",
-                publisher: "MIT CSAIL Technical Reports"
-              },
-              "PERMACOOKIE": {
-                authors: [ "Robert McMillan" ],
-                href: "http://www.wired.com/2014/10/verizons-perma-cookie/",
-                title: "Verizon's 'Perma-Cookie' Is a Privacy-Killing Machine",
-                publisher: "Wired"
-              },
-              "POWER": {
-                authors: [ "Mike West", "Yan Zhu" ],
-                href: "http://www.w3.org/TR/powerful-features/",
-                title: "Secure Contexts",
-                status: "ED",
-                publisher: "W3C"
-              },
-              "UPGRADE": {
-                authors: [ "Mike West" ],
-                href: "http://www.w3.org/TR/upgrade-insecure-requests/",
-                title: "Upgrade Insecure Requests",
-                status: "ED",
-                publisher: "W3C"
-              },
-              "FIRESHEEP": {
-                authors: [ "Eric Butler" ],
-                href: "http://codebutler.com/firesheep/",
-                title: "Firesheep"
-              }
-          }
+          edDraftURI: "https://w3ctag.github.io/encryption-finding/"
       };
     </script>
 </head>
@@ -92,7 +52,7 @@
 
     <p>The web is an interoperable, open platform that works because users trust it. Thanks to broadly available strong encryption, the World Wide Web has enabled an explosion of creativity and commerce, enabling millions of businesses and other organizations to maintain the user trust essential to their growth. This trust is fundamentally undermined by key escrow or deliberately weak encryption provisions.</p>
 
-    <p>As stated in [[SECURING-WEB]], the TAG strongly supports the use of HTTPS to assure users that the parties they're interacting with are really who they say they are, and that their communications have not been tampered with. Recent W3C specifications, such as [[POWER]] and [[UPGRADE]], seek to ease and encourage the path towards a fully encrypted web. This is crucial in light of recent end-user breaches of trust such as [[PERMACOOKIE]], a privacy violation by the network operator that would be impossible in an encrypted web. Likewise, attacks on credentials and other sensitive information such as demonstrated by [[FIRESHEEP]] are prevented by the ubiquitous use of TLS.</p>
+    <p>As stated in [[SECURING-WEB]], the TAG strongly supports the use of HTTPS to assure users that the parties they're interacting with are really who they say they are, and that their communications have not been tampered with. Recent W3C specifications, such as [[POWERFUL-FEATURES]] and [[UPGRADE-INSECURE-REQUESTS]], seek to ease and encourage the path towards a fully encrypted web. This is crucial in light of recent end-user breaches of trust such as [[PERMACOOKIE]], a privacy violation by the network operator that would be impossible in an encrypted web. Likewise, attacks on credentials and other sensitive information such as demonstrated by [[FIRESHEEP]] are prevented by the ubiquitous use of TLS.</p>
 
     <p>As other technical experts have written in [[KEYS]], it is impossible to build systems that can securely support "exceptional access" capabilities without breaking the trust guarantees of the web platform. Introducing such capabilities imposes known risks that far outweigh any hypothetical benefits.</p>
   </section>
